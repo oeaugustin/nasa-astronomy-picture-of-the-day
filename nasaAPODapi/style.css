@@ -1,0 +1,92 @@
+/*style.css APOD API*/
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono|Source+Code+Pro');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Source Code Pro', monospace;
+	color: whitesmoke;
+}
+body{
+	background: url("https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center no-repeat;
+	background-size: cover;
+	overflow-y: scroll;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+header{
+	/*padding-top: 5vh;*/
+	padding-left: 10%;
+	padding-right: 10%; 
+	float: left;
+	width: 100%;
+}
+header:after{
+	content: ".";
+	color: transparent;
+	border-bottom: 1px solid whitesmoke;
+	height: .2em;
+	opacity: .7;
+	width: 100%;
+	float: left;
+	margin-top: 3vh;
+	margin-left: 0%;
+}
+
+h1{
+	margin: 0;
+	width: 70%;
+	float: left;
+	font-size: 1.85em;
+	font-family: 'Share Tech Mono', monospace;
+}
+input{
+	background: whitesmoke;
+	color: black;
+	width: 25%;
+	font-size: .5em;
+	margin-top: 2vh;
+	padding: 1.3px;
+	height: 3vh;
+	float: left;
+	border-radius: 5px;
+	border: none;
+	border-bottom: 1px solid whitesmoke;
+}
+input:before{
+	color: rgb(50,50,50);
+	font-size: .9em;
+	opacity: .7;
+	content: "choose a date:";
+	margin-right: 1em;
+
+}
+.wrapper{
+	margin: 10%;
+}
+img{
+	padding-top: 4vh;
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	max-height: 120vh;
+}
+p.clearfix{
+	padding: 2em;
+	background: rgba(55,55,55,.5);
+	border-radius: 5px;
+	color: whitesmoke;
+	width: 100%;
+	line-height: 1.5em;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 10vh;
+	float: left;
+	margin-bottom: 10vh;
+}
